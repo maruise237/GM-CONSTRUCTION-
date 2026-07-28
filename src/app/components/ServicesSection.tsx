@@ -71,7 +71,7 @@ export default function ServicesSection() {
           >
             <h3 className="section-title mb-4">Objectifs</h3>
             <p className="text-[16.5px] leading-relaxed mb-6">{siteConfig.about}</p>
-            <a href="#services" className="btn-red">
+            <a href="/a-propos/nos-objectifs" className="btn-red">
               Lire la suite <ArrowForward />
             </a>
           </motion.div>
@@ -81,6 +81,7 @@ export default function ServicesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6, delay: 0.2 }}
+            id="services"
           >
             <h3 className="section-title mb-4">Services</h3>
             <div className="relative w-[340px] h-[340px] mx-auto md:w-full md:aspect-square max-w-[400px]">
@@ -99,7 +100,7 @@ export default function ServicesSection() {
                     <p>{items[active].desc}</p>
                   </motion.div>
                 </AnimatePresence>
-                <a href="#contact" className="text-red-custom font-semibold text-xs mt-2 hover:underline">
+                <a href="/services/conseil-assistance" className="text-red-custom font-semibold text-xs mt-2 hover:underline">
                   Lire la suite
                 </a>
               </div>

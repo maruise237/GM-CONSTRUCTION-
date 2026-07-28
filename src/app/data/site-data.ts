@@ -130,23 +130,26 @@ export const socialLinks = [
 ]
 
 export const navLinks = [
-  { label: "Accueil", href: "#hero" },
-  { label: "A Propos", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Références", href: "#references" },
-  { label: "Réalisations", href: "#realisations" },
-  { label: "Contact", href: "#contact" },
+  { label: "Accueil", href: "/" },
+  { label: "A Propos", href: "/a-propos/presentation" },
+  { label: "Services", href: "/services/conseil-assistance" },
+  { label: "Réalisations", href: "/realisations" },
+  { label: "Contact", href: "/contact" },
 ]
 
 export const footerLinks = {
   rapides: [
-    { label: "Accueil", href: "#hero" },
-    { label: "A Propos", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Réalisations", href: "#realisations" },
+    { label: "Accueil", href: "/" },
+    { label: "A Propos", href: "/a-propos/presentation" },
+    { label: "Services", href: "/services/conseil-assistance" },
+    { label: "Réalisations", href: "/realisations" },
+    { label: "Carrières", href: "/carrieres" },
   ],
-  services: services.map((s) => ({
-    label: s.title,
-    href: "#services",
-  })),
+  services: [
+    { label: "Conseil & Assistance", href: "/services/conseil-assistance" },
+    { label: "Conception", href: "/services/conception" },
+    { label: "Construction", href: "/services/construction" },
+    { label: "Pilotage & Coordination", href: "/services/pilotage-coordination" },
+    { label: "Promotion Immobilière", href: "/services/promotion-immobiliere" },
+  ],
 }

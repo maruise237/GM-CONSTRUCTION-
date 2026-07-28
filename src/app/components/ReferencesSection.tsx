@@ -60,7 +60,7 @@ function FlipCard({ title, index }: { title: string; index: number }) {
             <circle cx="12" cy="13" r="3" />
           </svg>
           <a
-            href="#realisations"
+            href="/realisations"
             className="text-white font-head font-bold text-base uppercase hover:underline"
           >
             {title}

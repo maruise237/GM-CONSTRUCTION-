@@ -6,48 +6,48 @@ import { siteConfig } from "../data/site-data"
 import { cn } from "../lib/utils"
 
 const menuItems = [
-  { label: "Accueil", href: "#hero" },
+  { label: "Accueil", href: "/" },
   {
     label: "A Propos",
-    href: "#about",
+    href: "/a-propos/presentation",
     children: [
-      { label: "Présentation", href: "#about" },
-      { label: "Nos Objectifs", href: "#about" },
-      { label: "Positionnement", href: "#about" },
-      { label: "Accompagnement A-Z", href: "#about" },
+      { label: "Présentation", href: "/a-propos/presentation" },
+      { label: "Nos Objectifs", href: "/a-propos/nos-objectifs" },
+      { label: "Positionnement", href: "/a-propos/positionnement" },
+      { label: "Accompagnement A-Z", href: "/a-propos/accompagnement-a-z" },
     ],
   },
   {
     label: "Services",
-    href: "#services",
+    href: "/services/conseil-assistance",
     children: [
-      { label: "Conseil & Assistance", href: "#services" },
-      { label: "Conception", href: "#services" },
-      { label: "Construction", href: "#services" },
-      { label: "Pilotage & Coordination", href: "#services" },
-      { label: "Promotion Immobilière", href: "#services" },
+      { label: "Conseil & Assistance", href: "/services/conseil-assistance" },
+      { label: "Conception", href: "/services/conception" },
+      { label: "Construction", href: "/services/construction" },
+      { label: "Pilotage & Coordination", href: "/services/pilotage-coordination" },
+      { label: "Promotion Immobilière", href: "/services/promotion-immobiliere" },
     ],
   },
   {
-    label: "Références",
-    href: "#references",
+    label: "Réalisations",
+    href: "/realisations",
     children: [
-      { label: "Génie Civil", href: "#references" },
-      { label: "Résidentiel", href: "#references" },
-      { label: "Architecture", href: "#references" },
-      { label: "Promotion", href: "#references" },
+      { label: "Rénovation", href: "/realisations" },
+      { label: "Résidentiel", href: "/realisations" },
+      { label: "Architecture", href: "/realisations" },
+      { label: "Génie Civil", href: "/realisations" },
     ],
   },
-  { label: "Carrières", href: "#contact" },
+  { label: "Carrières", href: "/carrieres" },
   {
     label: "Médiathèque",
-    href: "#",
+    href: "/mediatheque",
     children: [
-      { label: "Documents", href: "#" },
-      { label: "Vidéos", href: "#" },
+      { label: "Documents", href: "/mediatheque" },
+      { label: "Vidéos", href: "/mediatheque" },
     ],
   },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/contact" },
 ]
 
 export default function Header() {
@@ -72,7 +72,7 @@ export default function Header() {
       )}
     >
       <div className="container-main flex justify-between items-center">
-        <a href="#hero" className="flex items-center gap-2 shrink-0">
+        <a href="/" className="flex items-center gap-2 shrink-0">
           <div className="w-[70px] h-[70px] bg-blue-custom rounded flex items-center justify-center text-white font-head font-extrabold text-xs leading-tight text-center p-1">
             GM
             <br />
@@ -119,7 +119,7 @@ export default function Header() {
 
         <div className="flex items-center gap-3 shrink-0">
           <a
-            href="#contact"
+            href="/contact"
             className="hidden lg:inline-flex items-center gap-2 border-2 border-blue-custom text-blue-custom font-head font-bold text-[15px] px-4 py-2 rounded uppercase hover:bg-blue-custom hover:text-white transition-all duration-300 hover:scale-105"
           >
             RDV
@@ -206,7 +206,7 @@ export default function Header() {
             </div>
           ))}
           <a
-            href="#contact"
+            href="/contact"
             className="mt-4 block text-center border-2 border-blue-custom text-blue-custom font-head font-bold text-base px-6 py-3 rounded uppercase hover:bg-blue-custom hover:text-white transition-colors"
             onClick={() => setMenuOpen(false)}
           >

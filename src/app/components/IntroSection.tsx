@@ -27,7 +27,7 @@ export default function IntroSection() {
           <span style={{ color: "#ffffff" }}>{siteConfig.intro}</span>
         </motion.p>
         <motion.a
-          href="#about"
+          href="/a-propos/presentation"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
