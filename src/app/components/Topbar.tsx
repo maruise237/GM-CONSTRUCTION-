@@ -5,7 +5,7 @@ import { siteConfig } from "../data/site-data"
 
 export default function Topbar() {
   return (
-    <div className="bg-[#c02329] text-white text-sm">
+    <div className="bg-red-custom text-white text-sm">
       <div className="container-main flex justify-between items-center h-10">
         <div className="flex gap-7 items-center">
           <span className="inline-flex items-center gap-1.5">

@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-red-custom: #a80d0d;
-  --color-blue-custom: #0062ad;
-  --color-accent: #dd3333;
+  --color-red-custom: #dd3333;
+  --color-blue-custom: #00235A;
   --font-body: "Exo 2", sans-serif;
   --font-head: "Exo", sans-serif;
 }
@@ -44,7 +43,7 @@
     transition: background 0.25s;
   }
   .btn-red:hover {
-    background: #8c0b0b;
+    background: #c02329;
   }
 }
 

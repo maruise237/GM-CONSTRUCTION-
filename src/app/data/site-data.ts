@@ -20,57 +20,57 @@ export const siteConfig = {
 export const services = [
   {
     id: 0,
-    title: "Dessin Architectural 2D & 3D",
+    title: "Conseil & Assistance",
     description:
-      "Plans d'architecture, modélisation 3D et rendus réalistes pour vos projets de construction et de rénovation.",
-    icon: "PencilRuler",
+      "Notre équipe de professionnels saura vous aider à trouver les meilleures solutions pour respecter votre budget, optimiser les délais d'exécution et structurer votre projet.",
+    icon: "Users",
   },
   {
     id: 1,
-    title: "Structures en Béton Armé",
+    title: "Conception",
     description:
-      "Calculs de structures, plans d'exécution et dimensionnement avec les logiciels les plus performants (Robot, Revit).",
-    icon: "Building2",
+      "Pour tous vos projets, nous vous proposons la conception architecturale (plans 2D, coupes et vues 3D) par notre équipe de professionnels, les plans béton armé et les plans des lots techniques.",
+    icon: "PencilRuler",
   },
   {
     id: 2,
-    title: "Suivi & Gestion de Projets",
+    title: "Pilotage & Coordination",
     description:
-      "Planification, contrôle qualité, coordination des équipes et rédaction des rapports pour vos chantiers.",
+      "De la conception jusqu'à la remise des clés : nous représentons le maître d'ouvrage sur le chantier. Sur les plans technique, administratif et financier, notre équipe prend en charge l'ensemble.",
     icon: "Settings",
   },
   {
     id: 3,
-    title: "Design Intérieur & Aménagement",
+    title: "Construction",
     description:
-      "Optimisation d'espace, décoration intérieure et finitions pour un cadre de vie qui vous ressemble.",
-    icon: "Home",
+      "Nous intervenons en tant que constructeur tous corps d'état et livrons des produits clés en main dans des délais et prix initialement convenus à l'avance.",
+    icon: "Building2",
   },
   {
     id: 4,
     title: "Promotion Immobilière",
     description:
-      "Location et vente d'appartements, vente de terrains et de matériaux de construction (ciment, fer, etc.).",
+      "Vous avez un terrain bien placé avec un titre de propriété ? Contactez-nous ! Nous nous occupons de tout : location, vente d'appartements, vente de terrains et de matériaux de construction.",
     icon: "Landmark",
   },
 ]
 
 export const references = [
   { title: "Génie Civil", image: "/images/placeholder.jpg", slug: "genie-civil" },
+  { title: "Hôpitaux", image: "/images/placeholder.jpg", slug: "hopitaux" },
+  { title: "Infrastructure", image: "/images/placeholder.jpg", slug: "infrastructure" },
+  { title: "Tertiaire", image: "/images/placeholder.jpg", slug: "tertiaire" },
   { title: "Résidentiel", image: "/images/placeholder.jpg", slug: "residentiel" },
-  { title: "Rénovation", image: "/images/placeholder.jpg", slug: "renovation" },
-  { title: "Architecture", image: "/images/placeholder.jpg", slug: "architecture" },
-  { title: "Promotion", image: "/images/placeholder.jpg", slug: "promotion" },
 ]
 
 export const stats = {
   intro:
     "Notre principal objectif est de bâtir des relations à long terme avec tous nos clients, basées sur l'intégrité, la performance, la qualité des produits livrés et la quête permanente de la satisfaction client.",
   items: [
-    { value: 10, suffix: "", label: "Projets réalisés" },
-    { value: 5, suffix: "+", label: "Années d'expérience" },
-    { value: 20, suffix: "+", label: "Clients satisfaits" },
-    { value: 7, suffix: "", label: "Services proposés" },
+    { value: 10, suffix: "+", label: "Projets réalisés" },
+    { value: 15, suffix: "", label: "Nos collaborateurs" },
+    { value: 50, suffix: "+", label: "Nos ouvriers" },
+    { value: 5, suffix: "", label: "Ans d'expérience" },
   ],
 }
 

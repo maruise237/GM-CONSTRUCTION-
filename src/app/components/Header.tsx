@@ -29,13 +29,13 @@ const menuItems = [
     ],
   },
   {
-    label: "Réalisations",
+    label: "Références",
     href: "/realisations",
     children: [
-      { label: "Rénovation", href: "/realisations" },
-      { label: "Résidentiel", href: "/realisations" },
-      { label: "Architecture", href: "/realisations" },
       { label: "Génie Civil", href: "/realisations" },
+      { label: "Hôpitaux", href: "/realisations" },
+      { label: "Résidentiel", href: "/realisations" },
+      { label: "Tertiaire", href: "/realisations" },
     ],
   },
   { label: "Carrières", href: "/carrieres" },
