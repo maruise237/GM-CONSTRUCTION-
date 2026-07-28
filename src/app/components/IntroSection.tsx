@@ -15,7 +15,7 @@ export default function IntroSection() {
           transition={{ duration: 0.6 }}
           className="font-head font-extrabold text-[28px] md:text-[30px] uppercase tracking-[0.5px] mb-6 leading-tight"
         >
-          {siteConfig.name} EST UNE ENTREPRISE CRÉÉE PAR UNE INGÉNIEURE
+          {siteConfig.name} — L&apos;EXPERTISE DE {siteConfig.ceo.toUpperCase()}, INGÉNIEURE EN GÉNIE CIVIL
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

@@ -15,6 +15,14 @@ export const siteConfig = {
     "Ayant une expertise avérée dans l'ingénierie des structures, la conception architecturale et le management de projets de BTP, avec une expérience au sein de grands projets au Sénégal. Notre ambition est de nous positionner comme un acteur de référence dans les domaines du BTP, des études techniques et de la promotion immobilière.",
   about:
     "La satisfaction du client est plus qu'un slogan chez GM CONSTRUCTION. Pour nous, il s'agit de cultiver et de maintenir de solides relations en collaborant avec nos clients pour comprendre leurs besoins et les aider à atteindre leurs objectifs dès le début.\nNous ne pouvons pas considérer qu'un projet soit réussi sans que notre client ne soit entièrement satisfait.",
+  ceoBio: "Titulaire d'un diplôme d'Ingénieur en Génie Civil (Option Structure), Ngaelle Dorivice Nkanpa Moffo a acquis une solide expérience au sein de projets d'envergure au Sénégal.\n\nActuellement Ingénieure en génie civil chez PRIUS GROUP (depuis octobre 2023), elle a précédemment occupé le poste d'Assistante qualité béton QA/QC chez Général d'Entreprise au Sénégal (mars 2020 - février 2021), où elle a participé à la construction du siège de l'IFC (Banque Mondiale).\n\nSon parcours inclut également des stages chez TEAMCAD-DESIGN, SAFEC et SARRE-Cons, qui lui ont permis de développer une expertise complète en conception de structures, suivi de chantier et management de projets de BTP.",
+  experience: [
+    { role: "Ingénieur en génie civil", company: "PRIUS GROUP", period: "Oct 2023 - Présent", description: "Management de projets de construction, conception de structures, suivi technique et coordination des équipes." },
+    { role: "Assistante qualité béton QA/QC", company: "Général d'Entreprise au Sénégal", period: "Mar 2020 - Fév 2021", description: "Construction du siège IFC (Banque Mondiale) — contrôle qualité béton, essais, conformité des matériaux." },
+    { role: "Stagiaire", company: "TEAMCAD-DESIGN", period: "Nov 2019 - Mar 2020", description: "Conception architecturale et études de structures." },
+    { role: "Stagiaire", company: "SAFEC", period: "Sep - Nov 2019", description: "Études techniques et suivi de chantier." },
+    { role: "Stagiaire", company: "SARRE-Cons", period: "", description: "Dessin et conception assistés par ordinateur." },
+  ],
 }
 
 export const services = [
@@ -75,16 +83,16 @@ export const stats = {
 }
 
 export const realisations = [
-  { title: "CONSTRUCTION D’UNE USINE DE STOCKAGE ET DE PRODUCTION DE CO2 POUR LE COMPTE D’AIR LIQUIDE A RICHARD-TOLL", category: "Infrastructure", image: "/images/projects/air1.jpg" },
-  { title: "CONCEPTION & CONSTRUCTION D’UN IMMEUBLE RESIDENTIEL R+2+TERRASSE ACCESSIBLE A MERMOZ CITE BATRAIN", category: "Résidentiel", image: "/images/projects/BAT3.jpg" },
-  { title: "CONSTRUCTION D’UNE VILLA R+1+TERRASSE ACCESSIBLE A SANGALKAM", category: "Résidentiel", image: "/images/projects/SAGAL.png" },
-  { title: "Construction d’un Centre Dialyse a Diamniadio", category: "Hôpitaux", image: "/images/projects/dialyse.png" },
-  { title: "TRAVAUX DE CONSTRUCTION DU CENTRE NATIONAL D’ONCOLOGIE SUR LE PÔLE URBAIN DE DIAMNIADIO", category: "Hôpitaux", image: "/images/projects/CNO.jpg" },
-  { title: "TRAVAUX DE RECONSTRUCTION DE L’HÔPITAL ARISTIDE LE DANTEC", category: "Hôpitaux", image: "/images/projects/dantec.jpg" },
-  { title: "TRAVAUX DE CONSTRUCTION DE L’HÔPITAL SEYDI EL HADJI MALICK SY À TIVAOUANE", category: "Hôpitaux", image: "/images/projects/F_AR.jpg" },
-  { title: "TRAVAUX DE CONSTRUCTION D’UN IMMEUBLE RDC+ 5 ÉTAGES + SOUS-SOL À YOFF", category: "Résidentiel", image: "/images/projects/yoff.jpg" },
-  { title: "TRAVAUX DE CONSTRUCTION D’UN SUPERMARCHÉ AUCHAN À DIAMNIADIO", category: "Tertiaire", image: "/images/projects/auchan.jpg" },
-  { title: "CONSTRUCTION D’UNE VILLA R+2+TERRASSE A YOFF CITE ERNAM AEROPORT", category: "Résidentiel", image: "/images/projects/ernam.jpg" },
+  { title: "Rénovation d'une villa sise aux Almadies", category: "Résidentiel", image: "/images/projects/ngor-r3.jpg" },
+  { title: "Résidence Thié à Popenguine", category: "Résidentiel", image: "/images/projects/popenguine.jpg" },
+  { title: "Résidence Mr Euloge au Cameroun", category: "Résidentiel", image: "/images/projects/BAT3.jpg" },
+  { title: "Deux R+4 en Côte d'Ivoire — Projet Mr Bass", category: "Résidentiel", image: "/images/projects/ngor-r4.jpg" },
+  { title: "Projet Mr Serigne au Sénégal", category: "Résidentiel", image: "/images/projects/SAGAL.png" },
+  { title: "Plan architectural R+2 — Mme Khaditou à Keur-Massar", category: "Résidentiel", image: "/images/projects/ngor-rdc4.jpg" },
+  { title: "Structure immeuble R+7 piscine terrasse — Projet Awa Sarr", category: "Résidentiel", image: "/images/projects/yoff.jpg" },
+  { title: "Structure immeuble R+1 piscine terrasse — Projet Villa Chris", category: "Résidentiel", image: "/images/projects/ernam.jpg" },
+  { title: "Structure immeuble RDC — Projet Mr Euloge", category: "Résidentiel", image: "/images/projects/saly.jpg" },
+  { title: "Ferraillage poutre", category: "Génie Civil", image: "/images/projects/standin2.jpg" },
 ]
 
 export const whyChooseUs = [
