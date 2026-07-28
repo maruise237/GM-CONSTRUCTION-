@@ -129,6 +129,30 @@ export const socialLinks = [
   { name: "YouTube", url: "#" },
 ]
 
+export const actualites = [
+  {
+    title: "GM CONSTRUCTION au cœur des priorités nationales",
+    excerpt:
+      "Retour en images sur la visite officielle du chantier de reconstruction, en présence des autorités. GM CONSTRUCTION démontre son engagement pour des infrastructures de qualité.",
+    date: "Juillet 2026",
+    category: "Actualité",
+  },
+  {
+    title: "Nouveau projet : Résidence haut standing aux Almadies",
+    excerpt:
+      "GM CONSTRUCTION débute la construction d'une résidence de luxe aux Almadies. Un projet qui allie design moderne et respect des normes environnementales.",
+    date: "Juin 2026",
+    category: "Projet",
+  },
+  {
+    title: "Rencontre avec Ngaelle Dorivice Nkanpa Moffo, notre CEO",
+    excerpt:
+      "Interview exclusive de notre fondatrice : son parcours d'ingénieure en génie civil, sa vision pour GM CONSTRUCTION et ses ambitions pour le développement du BTP au Sénégal.",
+    date: "Mai 2026",
+    category: "Interview",
+  },
+]
+
 export const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "A Propos", href: "/a-propos/presentation" },

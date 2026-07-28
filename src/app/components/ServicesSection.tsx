@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { services, siteConfig } from "../data/site-data"
 import * as Icons from "lucide-react"
-import { ArrowForward } from "./Icons"
 
 const iconMap: Record<string, React.ElementType> = {
   Users: Icons.Users,
@@ -45,7 +44,7 @@ export default function ServicesSection() {
   return (
     <section id="about" className="py-10">
       <div className="container-main">
-        <div className="grid md:grid-cols-3 gap-8 items-start">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -61,19 +60,6 @@ export default function ServicesSection() {
                 </div>
               </div>
             </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-          >
-            <h3 className="section-title mb-4">Objectifs</h3>
-            <p className="text-[16.5px] leading-relaxed mb-6">{siteConfig.about}</p>
-            <a href="/a-propos/nos-objectifs" className="btn-red">
-              Lire la suite <ArrowForward />
-            </a>
           </motion.div>
 
           <motion.div
