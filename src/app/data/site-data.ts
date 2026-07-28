@@ -64,11 +64,11 @@ export const services = [
 ]
 
 export const references = [
-  { title: "Génie Civil", image: "/images/references/genie-civil.jpg", slug: "genie-civil" },
-  { title: "Hôpitaux", image: "/images/references/hopitaux.jpg", slug: "hopitaux" },
-  { title: "Infrastructure", image: "/images/references/infrastructure.jpg", slug: "infrastructure" },
-  { title: "Tertiaire", image: "/images/references/tertiaire.jpg", slug: "tertiaire" },
-  { title: "Résidentiel", image: "/images/references/residentiel.jpg", slug: "residentiel" },
+  { title: "Génie Civil", image: "/images/projects/docx-photo7.png", slug: "genie-civil" },
+  { title: "Hôpitaux", image: "/images/projects/docx-photo6.png", slug: "hopitaux" },
+  { title: "Infrastructure", image: "/images/projects/docx-photo2.jpeg", slug: "infrastructure" },
+  { title: "Tertiaire", image: "/images/projects/docx-photo4.png", slug: "tertiaire" },
+  { title: "Résidentiel", image: "/images/projects/docx-photo3.jpeg", slug: "residentiel" },
 ]
 
 export const stats = {
@@ -83,16 +83,16 @@ export const stats = {
 }
 
 export const realisations = [
-  { title: "Rénovation d'une villa sise aux Almadies", category: "Résidentiel", image: "/images/projects/ngor-r3.jpg" },
-  { title: "Résidence Thié à Popenguine", category: "Résidentiel", image: "/images/projects/popenguine.jpg" },
-  { title: "Résidence Mr Euloge au Cameroun", category: "Résidentiel", image: "/images/projects/BAT3.jpg" },
-  { title: "Deux R+4 en Côte d'Ivoire — Projet Mr Bass", category: "Résidentiel", image: "/images/projects/ngor-r4.jpg" },
-  { title: "Projet Mr Serigne au Sénégal", category: "Résidentiel", image: "/images/projects/SAGAL.png" },
-  { title: "Plan architectural R+2 — Mme Khaditou à Keur-Massar", category: "Résidentiel", image: "/images/projects/ngor-rdc4.jpg" },
-  { title: "Structure immeuble R+7 piscine terrasse — Projet Awa Sarr", category: "Résidentiel", image: "/images/projects/yoff.jpg" },
-  { title: "Structure immeuble R+1 piscine terrasse — Projet Villa Chris", category: "Résidentiel", image: "/images/projects/ernam.jpg" },
-  { title: "Structure immeuble RDC — Projet Mr Euloge", category: "Résidentiel", image: "/images/projects/saly.jpg" },
-  { title: "Ferraillage poutre", category: "Génie Civil", image: "/images/projects/standin2.jpg" },
+  { title: "Rénovation d'une villa sise aux Almadies", category: "Résidentiel", image: "/images/projects/docx-photo2.jpeg" },
+  { title: "Résidence Thié à Popenguine", category: "Résidentiel", image: "/images/projects/docx-photo3.jpeg" },
+  { title: "Résidence Mr Euloge au Cameroun", category: "Résidentiel", image: "/images/projects/docx-photo10.png" },
+  { title: "Deux R+4 en Côte d'Ivoire — Projet Mr Bass", category: "Résidentiel", image: "/images/projects/docx-photo12.png" },
+  { title: "Projet Mr Serigne au Sénégal", category: "Résidentiel", image: "/images/projects/docx-photo13.png" },
+  { title: "Plan architectural R+2 — Mme Khaditou à Keur-Massar", category: "Résidentiel", image: "/images/projects/docx-photo14.png" },
+  { title: "Structure immeuble R+7 piscine terrasse — Projet Awa Sarr", category: "Résidentiel", image: "/images/projects/docx-photo5.png" },
+  { title: "Structure immeuble R+1 piscine terrasse — Projet Villa Chris", category: "Résidentiel", image: "/images/projects/docx-photo4.png" },
+  { title: "Structure immeuble RDC — Projet Mr Euloge", category: "Résidentiel", image: "/images/projects/docx-photo8.jpeg" },
+  { title: "Ferraillage poutre", category: "Génie Civil", image: "/images/projects/docx-photo11.png" },
 ]
 
 export const whyChooseUs = [
@@ -100,43 +100,32 @@ export const whyChooseUs = [
     title: "Une Relation de Confiance",
     description:
       "Vous souhaitez réaliser un projet immobilier ? Nous sommes à votre écoute et mettons tout en œuvre pour vous apporter l'aide dont vous avez besoin.",
-    image: "/images/icons/trust.png",
+    image: "/images/projects/docx-photo11.png",
   },
   {
     title: "Un Projet qui vous ressemble",
     description:
       "Nos collaborateurs sont à votre écoute. Ils sont à votre disposition pour répondre à vos questions et à vous aider à personnaliser votre bien immobilier.",
-    image: "/images/icons/duplicate.png",
+    image: "/images/projects/docx-photo10.png",
   },
   {
     title: "Votre projet entre des mains expertes",
     description:
       "De l'étude de votre projet immobilier à la remise des clés, en passant par l'établissement de votre permis de construire et le suivi de chantier.",
-    image: "/images/icons/practice.png",
+    image: "/images/projects/docx-photo13.png",
   },
   {
     title: "Notre exigence de qualité et le respect des délais",
     description:
       "Les matériaux qui équipent chacune de nos réalisations sont choisis rigoureusement en conformité aux normes en vigueur et suivant les règles de l'art.",
-    image: "/images/icons/qualitative-research.png",
+    image: "/images/projects/docx-photo14.png",
   },
 ]
 
 export const partners = [
-  { name: "YUM YUM", logo: "/images/partners/yum-yum.png" },
-  { name: "SMIT", logo: "/images/partners/smit.png" },
-  { name: "SAUDEQUIP", logo: "/images/partners/saudequip.png" },
-  { name: "EASYCUBE", logo: "/images/partners/easycube.png" },
-  { name: "Nkac", logo: "/images/partners/Nkac.png" },
-  { name: "AIR LIQUIDE", logo: "/images/partners/air-liquide.png" },
-  { name: "AUCHAN", logo: "/images/partners/auchan.png" },
-  { name: "GHESA", logo: "/images/partners/ghesa.png" },
-  { name: "SOGEA SATOM", logo: "/images/partners/sogea.png" },
-  { name: "QUANTUM", logo: "/images/partners/quantum.png" },
-  { name: "EIFFAGE", logo: "/images/partners/eiffage.png" },
-  { name: "ECLIPSE PROJECTS", logo: "/images/partners/ellipse.png" },
-  { name: "AGENCE DE DEVELOPPEMENT MUNICIPAL", logo: "/images/partners/adm.png" },
-  { name: "SAMSUNG C&T", logo: "/images/partners/samsungct.png" },
+  "YUM YUM", "SMIT", "SAUDEQUIP", "EASYCUBE", "NKAC",
+  "AIR LIQUIDE", "AUCHAN", "GHESA", "SOGEA SATOM", "QUANTUM",
+  "EIFFAGE", "ECLIPSE PROJECTS", "ADM", "SAMSUNG C&T",
 ]
 
 export const socialLinks = [

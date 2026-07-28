@@ -19,13 +19,13 @@ export default function PartnersSection() {
 
         <div className="overflow-hidden relative">
           <div className="flex gap-[70px] items-center w-max animate-marquee hover:[animation-play-state:paused]">
-            {[...partners, ...partners].map((p, i) => (
-              <img
+            {[...partners, ...partners].map((name, i) => (
+              <span
                 key={i}
-                src={p.logo}
-                alt={p.name}
-                className="h-[52px] w-auto object-contain opacity-90 grayscale-[35%] hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-              />
+                className="text-[18px] font-head font-bold text-gray-400 hover:text-blue-custom transition-colors duration-300 whitespace-nowrap uppercase tracking-widest"
+              >
+                {name}
+              </span>
             ))}
           </div>
         </div>
