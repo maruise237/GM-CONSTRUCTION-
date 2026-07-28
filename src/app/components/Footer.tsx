@@ -15,7 +15,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <img src="/images/general/logo.png" alt="GM CONSTRUCTION" className="h-[70px] w-auto mb-3.5" />
+            <img src="/images/general/logo-gm.png" alt="GM CONSTRUCTION" className="h-[70px] w-auto mb-3.5" />
           </motion.div>
 
           <motion.div

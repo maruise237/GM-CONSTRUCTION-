@@ -22,21 +22,21 @@ export const services = [
     id: 0,
     title: "Conseil & Assistance",
     description:
-      "Notre équipe de professionnels saura vous aider à trouver les meilleures solutions pour respecter votre budget, optimiser les délais d'exécution et structurer votre projet.",
+      "Notre équipe de professionnels saura vous aider à trouver les meilleures solutions pour respecter votre budget, optimiser les délais d'exécution et structurer votre projet, avec une expertise en design intérieur et aménagement d'espace.",
     icon: "Users",
   },
   {
     id: 1,
     title: "Conception",
     description:
-      "Pour tous vos projets, nous vous proposons la conception architecturale (plans 2D, coupes et vues 3D) par notre équipe de professionnels, les plans béton armé et les plans des lots techniques.",
+      "Dessin architectural 2D & 3D, modélisation, rendus réalistes, plans d'exécution et dimensionnement des structures en béton armé avec les logiciels les plus performants (AutoCAD, Revit, Robot Structural Analysis).",
     icon: "PencilRuler",
   },
   {
     id: 2,
     title: "Pilotage & Coordination",
     description:
-      "De la conception jusqu'à la remise des clés : nous représentons le maître d'ouvrage sur le chantier. Sur les plans technique, administratif et financier, notre équipe prend en charge l'ensemble.",
+      "De la conception jusqu'à la remise des clés : planification, contrôle qualité, coordination des équipes, rédaction des rapports mensuels et suivi rigoureux de l'avancement des travaux.",
     icon: "Settings",
   },
   {
@@ -50,7 +50,7 @@ export const services = [
     id: 4,
     title: "Promotion Immobilière",
     description:
-      "Vous avez un terrain bien placé avec un titre de propriété ? Contactez-nous ! Nous nous occupons de tout : location, vente d'appartements, vente de terrains et de matériaux de construction.",
+      "Location et vente d'appartements, vente de terrains et de matériaux de construction (ciment, fer, etc.). Vous avez un terrain bien placé avec un titre de propriété ? Contactez-nous !",
     icon: "Landmark",
   },
 ]
