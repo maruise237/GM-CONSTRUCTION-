@@ -73,11 +73,7 @@ export default function Header() {
     >
       <div className="container-main flex justify-between items-center">
         <a href="/" className="flex items-center gap-2 shrink-0">
-          <div className="w-[70px] h-[70px] bg-blue-custom rounded flex items-center justify-center text-white font-head font-extrabold text-xs leading-tight text-center p-1">
-            GM
-            <br />
-            CONSTR.
-          </div>
+          <img src="/images/general/logo.png" alt="GM CONSTRUCTION" className="h-[60px] w-auto" />
         </a>
 
         <nav className="hidden lg:flex items-center justify-center flex-1 px-6">
@@ -147,11 +143,7 @@ export default function Header() {
         )}
       >
         <div className="flex justify-between items-center p-4 border-b">
-          <div className="w-14 h-14 bg-blue-custom rounded flex items-center justify-center text-white font-head font-extrabold text-xs leading-tight text-center p-1">
-            GM
-            <br />
-            CONSTR.
-          </div>
+          <img src="/images/general/logo.png" alt="GM CONSTRUCTION" className="h-[50px] w-auto" />
           <button onClick={() => setMenuOpen(false)} aria-label="Fermer">
             <X size={28} className="text-blue-custom" />
           </button>

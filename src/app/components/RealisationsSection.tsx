@@ -8,6 +8,7 @@ import { realisations } from "../data/site-data"
 interface Realisation {
   title: string
   category: string
+  image?: string
 }
 
 export default function RealisationsSection({ items }: { items: Realisation[] }) {
@@ -86,16 +87,16 @@ export default function RealisationsSection({ items }: { items: Realisation[] })
                 transition={{ duration: 0.4, delay: (i % 6) * 0.06 }}
                 className="flex-[0_0_290px] snap-start bg-white rounded overflow-hidden shadow-lg group"
               >
-                <div className="relative h-[172px] bg-gradient-to-br from-blue-custom/20 to-red-custom/20 overflow-hidden">
+                <div className="relative h-[172px] overflow-hidden">
+                  <img
+                    src={item.image || ""}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
                   <span className="absolute top-2 left-2 bg-blue-custom text-white text-[10px] font-head font-bold px-2 py-0.5 rounded uppercase tracking-wider z-10">
                     {item.category}
                   </span>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-4xl font-head font-extrabold text-blue-custom/20">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                  </div>
-                  <div className="absolute inset-0 bg-blue-custom/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute inset-0 bg-blue-custom/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                       <line x1="5" y1="12" x2="19" y2="12" />
                       <polyline points="12 5 19 12 12 19" />

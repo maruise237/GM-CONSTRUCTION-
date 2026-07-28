@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { services, siteConfig } from "../data/site-data"
+import { services } from "../data/site-data"
 import * as Icons from "lucide-react"
 
 const iconMap: Record<string, React.ElementType> = {
@@ -51,15 +51,11 @@ export default function ServicesSection() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6 }}
           >
-            <div className="bg-gray-100 rounded overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-blue-custom to-red-custom flex items-center justify-center text-white font-head font-bold text-lg p-4 text-center">
-                <div>
-                  <p className="text-5xl font-extrabold mb-2">GM</p>
-                  <p className="text-sm uppercase tracking-widest">{siteConfig.ceo}</p>
-                  <p className="text-xs mt-1 opacity-80">{siteConfig.ceoTitle}</p>
-                </div>
-              </div>
-            </div>
+            <img
+              src="/images/general/services.jpg"
+              alt="GM CONSTRUCTION — Services"
+              className="w-full h-full object-cover rounded"
+            />
           </motion.div>
 
           <motion.div
@@ -105,7 +101,7 @@ export default function ServicesSection() {
                       right: (pos as any).right,
                       bottom: (pos as any).bottom,
                       transform: `translate(${pos.x}, ${pos.y})`,
-                      backgroundColor: active === i ? "#a80d0d" : "#0062ad",
+                      backgroundColor: active === i ? "#dd3333" : "#00235A",
                       color: "#fff",
                     }}
                   >

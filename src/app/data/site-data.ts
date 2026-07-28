@@ -56,11 +56,11 @@ export const services = [
 ]
 
 export const references = [
-  { title: "Génie Civil", image: "/images/placeholder.jpg", slug: "genie-civil" },
-  { title: "Hôpitaux", image: "/images/placeholder.jpg", slug: "hopitaux" },
-  { title: "Infrastructure", image: "/images/placeholder.jpg", slug: "infrastructure" },
-  { title: "Tertiaire", image: "/images/placeholder.jpg", slug: "tertiaire" },
-  { title: "Résidentiel", image: "/images/placeholder.jpg", slug: "residentiel" },
+  { title: "Génie Civil", image: "/images/references/genie-civil.jpg", slug: "genie-civil" },
+  { title: "Hôpitaux", image: "/images/references/hopitaux.jpg", slug: "hopitaux" },
+  { title: "Infrastructure", image: "/images/references/infrastructure.jpg", slug: "infrastructure" },
+  { title: "Tertiaire", image: "/images/references/tertiaire.jpg", slug: "tertiaire" },
+  { title: "Résidentiel", image: "/images/references/residentiel.jpg", slug: "residentiel" },
 ]
 
 export const stats = {
@@ -75,51 +75,60 @@ export const stats = {
 }
 
 export const realisations = [
-  { title: "Rénovation d'une villa sise aux Almadies", category: "Rénovation" },
-  { title: "Résidence Thié à Popenguine", category: "Résidentiel" },
-  { title: "Résidence Mr Euloge au Cameroun", category: "Résidentiel" },
-  { title: "Deux R+4 en Côte d'Ivoire - Projet Mr Bass", category: "Résidentiel" },
-  { title: "Projet Mr Serigne au Sénégal", category: "Résidentiel" },
-  { title: "Plan architectural R+2 - Mme Khaditou à Keur-Massar", category: "Architecture" },
-  { title: "Structure immeuble R+7 piscine terrasse - Awa Sarr", category: "Génie Civil" },
-  { title: "Structure immeuble R+1 piscine terrasse - Villa Chris", category: "Génie Civil" },
-  { title: "Structure immeuble RDC - Projet Mr Euloge", category: "Génie Civil" },
-  { title: "Ferraillage poutre - Étude technique", category: "Génie Civil" },
+  { title: "CONSTRUCTION D’UNE USINE DE STOCKAGE ET DE PRODUCTION DE CO2 POUR LE COMPTE D’AIR LIQUIDE A RICHARD-TOLL", category: "Infrastructure", image: "/images/projects/air1.jpg" },
+  { title: "CONCEPTION & CONSTRUCTION D’UN IMMEUBLE RESIDENTIEL R+2+TERRASSE ACCESSIBLE A MERMOZ CITE BATRAIN", category: "Résidentiel", image: "/images/projects/BAT3.jpg" },
+  { title: "CONSTRUCTION D’UNE VILLA R+1+TERRASSE ACCESSIBLE A SANGALKAM", category: "Résidentiel", image: "/images/projects/SAGAL.png" },
+  { title: "Construction d’un Centre Dialyse a Diamniadio", category: "Hôpitaux", image: "/images/projects/dialyse.png" },
+  { title: "TRAVAUX DE CONSTRUCTION DU CENTRE NATIONAL D’ONCOLOGIE SUR LE PÔLE URBAIN DE DIAMNIADIO", category: "Hôpitaux", image: "/images/projects/CNO.jpg" },
+  { title: "TRAVAUX DE RECONSTRUCTION DE L’HÔPITAL ARISTIDE LE DANTEC", category: "Hôpitaux", image: "/images/projects/dantec.jpg" },
+  { title: "TRAVAUX DE CONSTRUCTION DE L’HÔPITAL SEYDI EL HADJI MALICK SY À TIVAOUANE", category: "Hôpitaux", image: "/images/projects/F_AR.jpg" },
+  { title: "TRAVAUX DE CONSTRUCTION D’UN IMMEUBLE RDC+ 5 ÉTAGES + SOUS-SOL À YOFF", category: "Résidentiel", image: "/images/projects/yoff.jpg" },
+  { title: "TRAVAUX DE CONSTRUCTION D’UN SUPERMARCHÉ AUCHAN À DIAMNIADIO", category: "Tertiaire", image: "/images/projects/auchan.jpg" },
+  { title: "CONSTRUCTION D’UNE VILLA R+2+TERRASSE A YOFF CITE ERNAM AEROPORT", category: "Résidentiel", image: "/images/projects/ernam.jpg" },
 ]
 
 export const whyChooseUs = [
   {
-    title: "Une Ingénieure à votre écoute",
+    title: "Une Relation de Confiance",
     description:
-      "Vous souhaitez réaliser un projet ? Nous sommes à votre écoute et mettons tout en œuvre pour vous apporter l'aide dont vous avez besoin, avec une expertise pointue en génie civil.",
-    image: "/images/placeholder.jpg",
+      "Vous souhaitez réaliser un projet immobilier ? Nous sommes à votre écoute et mettons tout en œuvre pour vous apporter l'aide dont vous avez besoin.",
+    image: "/images/icons/trust.png",
   },
   {
     title: "Un Projet qui vous ressemble",
     description:
-      "Du dessin architectural à la livraison, nous travaillons avec vous pour personnaliser chaque détail de votre bien immobilier.",
-    image: "/images/placeholder.jpg",
+      "Nos collaborateurs sont à votre écoute. Ils sont à votre disposition pour répondre à vos questions et à vous aider à personnaliser votre bien immobilier.",
+    image: "/images/icons/duplicate.png",
   },
   {
     title: "Votre projet entre des mains expertes",
     description:
-      "De l'étude de faisabilité à la remise des clés, en passant par les plans d'exécution et le suivi de chantier.",
-    image: "/images/placeholder.jpg",
+      "De l'étude de votre projet immobilier à la remise des clés, en passant par l'établissement de votre permis de construire et le suivi de chantier.",
+    image: "/images/icons/practice.png",
   },
   {
-    title: "Qualité & Respect des délais",
+    title: "Notre exigence de qualité et le respect des délais",
     description:
-      "Les matériaux et techniques utilisés sont choisis rigoureusement en conformité avec les normes en vigueur et les règles de l'art.",
-    image: "/images/placeholder.jpg",
+      "Les matériaux qui équipent chacune de nos réalisations sont choisis rigoureusement en conformité aux normes en vigueur et suivant les règles de l'art.",
+    image: "/images/icons/qualitative-research.png",
   },
 ]
 
 export const partners = [
-  "PRIUS GROUP",
-  "BANQUE MONDIALE / IFC",
-  "TEAMCAD-DESIGN",
-  "SAFEC",
-  "SARRE-CONS",
+  { name: "YUM YUM", logo: "/images/partners/yum-yum.png" },
+  { name: "SMIT", logo: "/images/partners/smit.png" },
+  { name: "SAUDEQUIP", logo: "/images/partners/saudequip.png" },
+  { name: "EASYCUBE", logo: "/images/partners/easycube.png" },
+  { name: "Nkac", logo: "/images/partners/Nkac.png" },
+  { name: "AIR LIQUIDE", logo: "/images/partners/air-liquide.png" },
+  { name: "AUCHAN", logo: "/images/partners/auchan.png" },
+  { name: "GHESA", logo: "/images/partners/ghesa.png" },
+  { name: "SOGEA SATOM", logo: "/images/partners/sogea.png" },
+  { name: "QUANTUM", logo: "/images/partners/quantum.png" },
+  { name: "EIFFAGE", logo: "/images/partners/eiffage.png" },
+  { name: "ECLIPSE PROJECTS", logo: "/images/partners/ellipse.png" },
+  { name: "AGENCE DE DEVELOPPEMENT MUNICIPAL", logo: "/images/partners/adm.png" },
+  { name: "SAMSUNG C&T", logo: "/images/partners/samsungct.png" },
 ]
 
 export const socialLinks = [

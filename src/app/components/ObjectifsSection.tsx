@@ -7,42 +7,39 @@ import { siteConfig } from "../data/site-data"
 
 export default function ObjectifsSection() {
   return (
-    <section className="bg-blue-custom text-white py-14 md:py-[72px]">
-      <div className="container-main">
-        <div className="max-w-[960px] mx-auto">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.5 }}
-            className="font-head font-extrabold text-[30px] md:text-[34px] uppercase tracking-[0.5px] mb-6 text-center"
-          >
+    <section id="objectifs">
+      <div className="container-main grid md:grid-cols-[1fr_1.15fr] gap-14 items-center py-[70px]">
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <img
+            src="/images/general/objectifs.jpg"
+            alt="GM CONSTRUCTION — relation client"
+            className="w-full h-full object-cover rounded"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          <h2 className="section-title inline-block border-b-3 border-blue-custom pb-1.5 mb-5">
             Objectifs
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-[17px] leading-relaxed text-center mb-9"
-          >
+          </h2>
+          <p className="text-[16.5px] leading-relaxed mb-8">
             {siteConfig.about}
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-center"
+          </p>
+          <Link
+            href="/a-propos/nos-objectifs"
+            className="btn-red inline-flex"
           >
-            <Link
-              href="/a-propos/nos-objectifs"
-              className="btn-red inline-flex"
-            >
-              Lire la suite <ArrowForward />
-            </Link>
-          </motion.div>
-        </div>
+            Lire la suite <ArrowForward />
+          </Link>
+        </motion.div>
       </div>
     </section>
   )

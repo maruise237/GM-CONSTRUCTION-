@@ -15,11 +15,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="w-[100px] mb-3.5">
-              <div className="w-[100px] h-[35px] bg-blue-custom rounded flex items-center justify-center text-white font-head font-extrabold text-[10px] leading-tight text-center p-1">
-                GM CONSTR.
-              </div>
-            </div>
+            <img src="/images/general/logo.png" alt="GM CONSTRUCTION" className="h-[70px] w-auto mb-3.5" />
           </motion.div>
 
           <motion.div
